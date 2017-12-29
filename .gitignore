@@ -1,0 +1,7 @@
+.idea/
+*.iml
+tmp/
+dist/
+build/
+.ansible-test/
+*.pyc

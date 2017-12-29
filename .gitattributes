@@ -1,0 +1,6 @@
+# force all files to LF endings
+*.yml       text eol=lf
+*.md        text eol=lf
+*.j2        text eol=lf
+*.py        text eol=lf
+.gitignore  text eol=lf
