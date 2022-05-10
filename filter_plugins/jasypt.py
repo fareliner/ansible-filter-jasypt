@@ -1,6 +1,12 @@
 from __future__ import (absolute_import, division, print_function)
 __metaclass__ = type
 
+# https://github.com/fareliner/jasypt4py/issues/3#issuecomment-1058722911
+# Resolve time.clock problem
+import time
+time.clock = time.time
+
+
 from ansible.errors import AnsibleError
 
 try:
